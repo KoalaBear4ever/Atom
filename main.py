@@ -21,7 +21,6 @@ for rootdir, dirs, files in os.walk(path):
                 mainDir = rootdir
                 break
 
-
 rootDirArch = mainDir + "\Архив"
 # Папки из которой и в которую будет происходить перемещение
 moveFrom = f"{mainDir}\{filename}"
