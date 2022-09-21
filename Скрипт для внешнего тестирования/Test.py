@@ -14,6 +14,9 @@ print(dlg.pane3.CheckBox.wrapper_object().click_input())                #Ста�
 print(dlg.pane3.Edit2.wrapper_object().click_input())                   #Щелкаем на пустом месте, чтобы никаких всплывающих окон не было
 print(dlg.pane3.button.wrapper_object().click())                        #Нажимаем на кнопку выполнить
 
+while (True):
+
+
 #Проверка подключения к chdbfl, чтобы в дальнейшем собрать логи.
 #Application(backend="uia").connect(r"C:\Program Files (x86)\1cv8\8.3.15.1869\bin\chdbfl.exe")
 #dlg = app['Проверка физической целостности файла БД']
